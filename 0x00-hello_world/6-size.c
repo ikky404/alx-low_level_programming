@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- *main - entry
+ *  main - start
  *
- *return: 0 (success)
+ *  return: always 0 (Success)
+ *
  */
 int main(void)
 {
