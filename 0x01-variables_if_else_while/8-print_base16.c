@@ -14,9 +14,9 @@ int main(void)
 
 	while (num <= '15')
 	{
-		putchar(num + '16');
+		putchar(num + '0');
 		num++;
 	}
-	putchar(ch);
+	putchar(num);
 	return (0);
 }
