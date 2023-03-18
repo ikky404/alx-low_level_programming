@@ -12,13 +12,12 @@ int main(void)
 {
 	int num = '0';
 
-	while (num < 16)
+	while (num <= 16)
 	{
-		putchar("0123456789abcdef");
+		putchar(num + '0');
 		num++;
 	}
 
 	putchar('\n');
 	return (0);
 }
-
