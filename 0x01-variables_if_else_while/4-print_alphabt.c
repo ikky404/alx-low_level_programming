@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
  * Description: print lowercase letters except q and e
  *
@@ -12,9 +12,10 @@ int main(void)
 {
 	char ch = 'a';
 
-	while (ch <='z')
+	while (ch <= 'z')
 	{
-		if (ch == 'e' || ch == 'q')ch++;
+		if (ch == 'e' || ch == 'q')
+			ch++;
 		putchar(ch);
 		ch++;
 	}
