@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	int num = '0';
+	int num = '15';
 
-	while (num <= 15)
+	while (num >= 0)
 	{
-		putchar(num + '0');
+		putchar(num + '15');
 		num--;
 	}
 	putchar('\n');
