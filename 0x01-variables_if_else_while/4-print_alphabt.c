@@ -5,7 +5,7 @@
  *
  * Description: print lowercase letters except q and e
  *
- * return: always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
