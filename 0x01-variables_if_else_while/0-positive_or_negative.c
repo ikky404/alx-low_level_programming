@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  * Description: print positive, negative or zero
- * Returne: always 0 (success)
+ * Return: always 0 (success)
  */
 
 
