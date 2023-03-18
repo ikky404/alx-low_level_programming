@@ -20,7 +20,7 @@ int main(void)
 
 	/*print upper case letters*/
 
-	while (ch <= 'Z')
+	while (CH <= 'Z')
 	{
 		putchar(CH);
 		CH++;
