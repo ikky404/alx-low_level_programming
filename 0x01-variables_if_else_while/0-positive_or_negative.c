@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- *
+ * description: if prints 0 that's success. other outputs are wronge
  * Returne: always 0 (success)
  */
 
