@@ -4,7 +4,7 @@
  *
  * Description: print letters in lower case then upper case
  *
- * return: always = 0
+ * return: 0 = success
  */
 
 int main(void)
