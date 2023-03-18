@@ -3,15 +3,14 @@
 #include <time.h>
 
 /**
- *
  * main - entry point
  *
- * description: print the value of number
+ * description: print the value of n, greatr than, is zero or is less than 6
  *
  * return: always 0 (success)
  */
 
-int main (void)
+int main(void)
 {
 	int n, number;
 
@@ -25,7 +24,7 @@ int main (void)
 	else if (number == 0)
 		printf("Last digit of %i is %i and is 0\n", n, number);
 	else if (number < 6 && number != 0)
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n,number);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, number);
 	
 	return (0);
 }
