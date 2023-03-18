@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
  * Description: print letters in lower case then upper case
  *
- * return: always 0 = success
+ * return: always 0 (success)
  */
 
 int main(void)
