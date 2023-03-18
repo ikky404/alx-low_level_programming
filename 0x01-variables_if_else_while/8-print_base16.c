@@ -14,11 +14,11 @@ int main(void)
 
 	while (num < 16)
 	{
-		putchar(num + '0');
+		putchar("0123456789abcdef");
 		num++;
 	}
 
-	putchar("0123456789abcdef\n");
+	putchar('\n');
 	return (0);
 }
 
