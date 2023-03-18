@@ -18,7 +18,7 @@ int main(void)
 		num++;
 	}
 
-	putchar('\n');
+	putchar("0123456789abcdef\n");
 	return (0);
 }
 
