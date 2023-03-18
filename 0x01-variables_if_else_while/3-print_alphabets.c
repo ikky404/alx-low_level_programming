@@ -7,7 +7,7 @@
  * return: always = 0
  */
 
-int main (void)
+int main(void)
 {
 	char ch = 'a';
 	char CH = 'A';
