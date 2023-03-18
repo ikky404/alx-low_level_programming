@@ -5,7 +5,7 @@
  *
  * Description: print numbers of base 16 in lowercase
  *
- * return: always 0 (success)
+ * return: Always 0 (success)
  */
 
 int main(void)
@@ -17,6 +17,6 @@ int main(void)
 		putchar(num + '0');
 		num++;
 	}
-	putchar(num);
+	putchar('\n');
 	return (0);
 }
