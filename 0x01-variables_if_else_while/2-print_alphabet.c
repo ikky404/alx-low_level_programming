@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - print the letters
  *
  * Description: print all letters
