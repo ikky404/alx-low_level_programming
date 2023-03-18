@@ -16,12 +16,8 @@ int main(void)
 	{
 		putchar(num + '0');
 		num++;
-		if (num < 10)
-		{
-			putchar(num + '10');
-			num++;
-		}
 	}
+
 	putchar('\n');
 	return (0);
 }
