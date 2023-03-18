@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- *Description:  prints all single digit numbers of base 10 starting from 0 using putchar
+ * Description: print all single digits of base 10 starting from 0 using putchar
  *
  * Return: Always 0 (success)
  */
