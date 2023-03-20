@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(num);
 		++num;
-		if (let <= f)
+		if (let <= 'f')
 			putchar(let);
 		let++;
 	}
