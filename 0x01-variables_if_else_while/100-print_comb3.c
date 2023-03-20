@@ -20,7 +20,7 @@ int main(void)
 			putchar((num % 10) + '0');
 			putchar((NUM % 10) + '0');
 
-			if (num == 0 && NUM == 0)
+			if (num == 8 && NUM == 9)
 				continue;
 
 			putchar(',');
