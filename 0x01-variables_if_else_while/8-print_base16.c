@@ -11,17 +11,11 @@
 int main(void)
 {
 	int num = 0;
-	char let = 'a';
 
 	while (num <= 10)
 	{
 		putchar(num);
 		num++;
-		if (let <= 'f')
-		{
-			putchar(let);
-		let++;
-		}
 	}
 	putchar('\n');
 	return 0;
