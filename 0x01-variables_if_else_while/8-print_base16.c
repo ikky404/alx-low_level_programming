@@ -16,7 +16,16 @@ int main(void)
 	{
 		putchar(num + '0');
 		num++;
+		if (num = 9)
+		{
+			char let = 'a';
+			for (let <= 'f'; num++)
+			{
+				putchar(num);
+			}
+		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
+
