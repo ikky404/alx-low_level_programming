@@ -21,6 +21,7 @@ int main(void)
 			putchar((NUM % 10) + '0');
 
 			if (num == 0 && NUM == 0)
+				continue;
 
 			putchar(',');
 			putchar(' ');
