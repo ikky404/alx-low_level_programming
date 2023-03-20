@@ -16,7 +16,7 @@ int main(void)
 	while (num <= 10)
 	{
 		putchar(num);
-		++num;
+		num++;
 		if (let <= 'f')
 			putchar(let);
 		let++;
