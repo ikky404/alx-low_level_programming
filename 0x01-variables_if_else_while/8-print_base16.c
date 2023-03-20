@@ -17,13 +17,6 @@ int main(void)
 		putchar(num + '0');
 		num++;
 	}
-	char let = 'a';
-
-	while (let <= 'f')
-	{
-		putchar(let + 'a');
-		let++;
-	}
-	putchar('\n');
+	putchar('\n\');
 	return (0);
 }
