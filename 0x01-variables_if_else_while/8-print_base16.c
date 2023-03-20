@@ -10,14 +10,17 @@
 
 int main(void)
 {
-	int n;
-	char l;
-	for (n = 0; n<10; n++)
+	int num = 0;
+	char let = 'a';
+
+	while (num <10)
 	{
-		putchar("%d", n);
+		putchar(num);
+		++num;
+		if (let <= f)
+			putchar(let);
+		let++;
 	}
-
-
 	putchar('\n');
-	return (0);
+	return 0;
 }
