@@ -18,8 +18,10 @@ int main(void)
 		putchar(num);
 		num++;
 		if (let <= 'f')
+		{
 			putchar(let);
 		let++;
+		}
 	}
 	putchar('\n');
 	return 0;
