@@ -3,6 +3,7 @@
 /**
  * print_sign - a function that prints the sign of a number
  *
+ * @n: integer to check
  *Return: 1 and print + if n > 0
  *0 and print 0 if n == 0
  *-1 and print - if n < 0
