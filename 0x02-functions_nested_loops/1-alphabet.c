@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - print the letters
  *
@@ -13,10 +13,10 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		putchar(ch);
+		_putchar(ch);
 		ch++;
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
