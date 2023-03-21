@@ -3,11 +3,12 @@
 /**
  *_islower - a function that checks for lowercase character
  *
+ * Return: 1 if let is lowercase, otherwise 0
  */
 
-int _islower(int c)
+int _islower(int let)
 {
-	if (c >= 'a' && c <= 'z')
+	if (let >= 'a' && let <= 'z')
 		return (1);
 	else
 		return (0);
