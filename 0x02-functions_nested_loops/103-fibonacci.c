@@ -20,7 +20,7 @@ int main(void)
 			e = e + b;
 		}
 		d = b + c;
-		y = c;
+		b = c;
 		c = d;
 	}
 
