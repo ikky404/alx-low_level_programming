@@ -1,18 +1,16 @@
-#include "main.h"
+#include"main.h"
 
 /**
-* main - checks for positive and negative
-*
-*@i: integer
+* main - tests function that prints status of integer pov or neg
 *
 * Return: 0 (success)
 */
 
-void positive_or_negative(int i);
+int main(void)
 {
 	int i;
 
-	i = 0;
+	i = 98 % 2;
 	positive_or_negative(i);
 
 	return (0);
