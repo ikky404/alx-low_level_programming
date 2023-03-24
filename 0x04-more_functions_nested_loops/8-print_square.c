@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * print_square - print a square with #
+ * print_square - print a square using hashtag symbole
  *
  * @size: size of the square
  *
