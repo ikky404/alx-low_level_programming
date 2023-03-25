@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-* main - tests function that prints status of integer pov or neg
+* main - prints status of integer pov or neg
 *
 * Return: 0 (success)
 */
