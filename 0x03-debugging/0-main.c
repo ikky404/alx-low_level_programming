@@ -2,7 +2,6 @@
 
 /**
 * main - prints status of integer pov or neg
-*
 * Return: 0 (success)
 */
 
