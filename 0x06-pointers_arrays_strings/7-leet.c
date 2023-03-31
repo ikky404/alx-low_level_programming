@@ -1,18 +1,22 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code for
+ * leet - encodes a string into 1337
+ *@str: string
  *
- * Return: Always 0.
+ * Return: return the value of str
  */
-int main(void)
+char *leet(char *str)
 {
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
+	int x, y;
+	char upper[] = "AEOTL", lower[] = "aeotl", num[] = "43071";
 
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
+	for (x = 0; str[x] != 0; x++)
+	{
+		for (y = 0; lower[y] != 0; y++)
+		{
+			if (str[x] == lower[y] || str[x] == upper[y])
+				str[x] = num[y];
+		}
+	}
+	return (str);
 }
