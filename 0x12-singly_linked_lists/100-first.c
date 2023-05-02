@@ -1,6 +1,7 @@
 #include "stdio.h"
 /**
  * before_exmain - function executed before main
+ * Return: 0
  */
 void before_exmain(void)
 {
