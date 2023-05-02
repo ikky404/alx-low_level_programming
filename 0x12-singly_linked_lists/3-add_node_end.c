@@ -4,8 +4,8 @@
  * at the end of a list_t list
  * @head: head of the linked list
  * @str: string to store in the list
- * 
- * Return: address of the head 
+ *
+ * Return: address of the head
  * or NULL if it failed
  */
 list_t *add_node_end(list_t **head, const char *str)
